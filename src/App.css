@@ -1,0 +1,31 @@
+.left-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  z-index: 1000;
+  overflow-y: auto;
+  background: #000;
+}
+
+@media (min-width: 992px) {
+  .ps-lg-240 {
+    padding-left: 240px !important;
+  }
+}
+
+.sticky-top {
+  z-index: 1100 !important;
+  background-color: #333232;
+}
+
+.custom-footer {
+  width: 100% !important;
+  margin: 0 !important;
+  background-color: #1c1c1e;
+  border-top: 1px solid #2c2c2e;
+  color: #8e8e93;
+  font-size: 0.8125rem;
+  padding: 3rem 1.5rem;
+}

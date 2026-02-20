@@ -1,0 +1,43 @@
+.radio-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 320px;
+  background: #212529;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.radio-card .content {
+  flex-grow: 1;
+}
+
+.radio-card img {
+  margin-top: auto;
+  border-radius: 0.75rem;
+  width: 100%;
+}
+
+p.song-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.col-text {
+  padding-right: 1rem;
+}
+
+.arrowright {
+  vertical-align: super;
+}
+
+.my-custom-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: rgb(250, 88, 106);
+  background-color: hsl(0, 0%, 16%);
+  border: rgb(250, 88, 106);
+}

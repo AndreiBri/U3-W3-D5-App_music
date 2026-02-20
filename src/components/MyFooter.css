@@ -1,0 +1,23 @@
+.custom-footer {
+  font-size: 0.8125rem;
+  background-color: #333232;
+}
+
+.footer-link {
+  color: white !important;
+  transition: color 0.15s ease;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: #ff3b3b !important;
+  text-decoration: underline !important;
+}
+
+.text-muted {
+  color: #515154 !important;
+}
+
+.px-3.px-md-4.px-lg-5.text-secondary.small.text-start.container-fluid {
+  margin-left: 0;
+}
