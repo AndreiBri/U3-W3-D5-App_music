@@ -1,5 +1,6 @@
 import { Nav } from "react-bootstrap";
 import { FiSearch, FiHome, FiRadio } from "react-icons/fi";
+import { LuLayoutGrid } from "react-icons/lu";
 import appleMusicLogo from "../assets/logos/music.png";
 
 import "./LeftSidebar.css";
@@ -22,17 +23,17 @@ const LeftSidebar = () => {
 
         <Nav className="flex-column gap-1">
           <Nav.Link href="/" className="sidebar-link d-flex align-items-center py-2 px-3 rounded">
-            <FiHome className="me-3" size={24} />
+            <FiHome stroke="red" className="me-3" size={24} />
             Home
           </Nav.Link>
 
           <Nav.Link href="/novita" className="sidebar-link active d-flex align-items-center py-2 px-3 rounded">
-            <FiRadio className="me-3" size={24} />
+            <LuLayoutGrid stroke="red" className="me-3" size={24} />
             Novità
           </Nav.Link>
 
           <Nav.Link href="/radio" className="sidebar-link d-flex align-items-center py-2 px-3 rounded">
-            <FiRadio className="me-3" size={24} />
+            <FiRadio stroke="red" className="me-3" size={24} />
             Radio
           </Nav.Link>
         </Nav>
