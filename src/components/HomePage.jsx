@@ -33,7 +33,7 @@ const HomePage = function ({ className }) {
         <DesktopTopNav />
       </div>
       <section className={className}>
-        <div className="mx-4 text-light">
+        <div className="mx-4 mt-3 mt-lg-0 text-light">
           <h1>Novità</h1>
           <hr />
         </div>
